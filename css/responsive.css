@@ -1,0 +1,124 @@
+@media( max-width:576px ){
+    .title-text {
+        font-size: 30px !important;
+    }
+
+    .cooprate-content-right h1 {
+        font-size: 21px;
+    }
+
+    .cooprate-content-right button span, .cooprate-content-right p  {
+        font-size: 16px;
+    }
+    .food-content {
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .cities-content {
+        grid-template-columns: repeat(5, auto);
+    }
+
+    .cooprate-content {
+        padding: 2rem;
+    }
+
+    .col2 {
+        padding: 40px;
+    }
+    .col3 {
+        padding: 40px;
+    }
+}
+@media( max-width:768px ){
+    .footer {
+        display: grid !important;
+        grid-template-columns: auto auto;
+    }
+    .col1 {
+        grid-template-rows: 12;
+        grid-row: 1;
+        grid-area: 1 / 1 / 12 / 3;
+        margin-bottom: 20px;
+        padding: 40px;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .header-container {
+        margin: 0 0 64px !important;
+        border-radius: 0;
+    }
+
+    .user-profile {
+        display: none !important;
+    }
+
+    .user {
+        display: flex !important;
+    }
+    
+    .food-content {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .cities-content {
+        grid-template-columns: repeat(6, auto) !important;
+    }
+
+    .snapp-container {
+        margin: 0 1rem;
+    }
+}
+@media( max-width:992px ){
+    .download-img {
+        display: none !important;
+    }
+
+    .cooprate-content-img {
+        display: none !important;
+    }
+
+    .download-content {
+        padding: 40px 40px 60px !important;
+        border-radius: 0 !important;
+    }
+
+    .download .snapp-container {
+        margin: 0;
+    }
+    
+    .download-content-right {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .navbar {
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+    }
+    .snapp-container {
+        margin: 0 1.5rem ;
+    }
+    .food-content {
+        display: grid !important;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .food-content-item {
+        width: 100%;
+    }
+
+    .cities-content {
+        grid-template-columns: repeat(9, auto);
+    }
+}
+@media( max-width:1200px ){
+
+}
